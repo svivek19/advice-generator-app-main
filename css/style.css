@@ -1,0 +1,76 @@
+  @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&family=Manrope:wght@800&display=swap');
+
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  body {
+      background-color: hsl(218, 23%, 16%);
+      font-family: 'Libre Franklin', sans-serif;
+      font-family: 'Manrope', sans-serif;
+  }
+
+  .container {
+      text-align: center;
+      margin: 5rem auto;
+      width: 30%;
+      font-size: 28px;
+      background-color: hsl(217, 19%, 24%);
+      border-radius: 10px;
+      box-shadow: 5px 5px 12px hsl(214, 20%, 7%);
+  }
+
+  .advice-title,
+  .advice-id {
+      font-size: 18px;
+      color: hsl(150, 100%, 66%);
+      margin: 2rem 0;
+  }
+
+  .advice-symbols,
+  .advice {
+      margin: 2rem 1rem;
+      color: hsl(193, 38%, 86%);
+      font-size: 20px;
+
+  }
+
+  .divider {
+      margin: 2rem 2rem;
+      width: 80%;
+  }
+
+  a {
+      background-color: hsl(150, 100%, 66%);
+      padding: 15px;
+      border-radius: 50%;
+      cursor: pointer;
+  }
+
+  a:hover {
+      transition: 0.3s;
+      box-shadow: 0px 0px 22px hsl(150, 87%, 71%);
+  }
+
+  /* Tablet - View */
+  @media screen and (max-width:768px) {
+      .container {
+          text-align: center;
+          margin: 2rem auto;
+          width: 80%;
+      }
+
+  }
+
+  /* Mobile - View */
+
+  @media screen and (max-width:375px) {
+      .container {
+          text-align: center;
+          margin: 1rem auto;
+          width: 100%;
+      }
+
+  }
